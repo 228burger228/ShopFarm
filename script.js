@@ -55,7 +55,7 @@ discordButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
         if (btn.classList.contains('btn-cta') || btn.classList.contains('btn-discord')) {
             // Replace with your Discord contact
-            window.location.href = 'https://discord.com/users/YOUR_DISCORD_ID';
+            window.location.href = 'https://discord.com/users/657635749520343040';
         }
     });
 });
