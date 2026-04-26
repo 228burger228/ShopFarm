@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Варп-магазин - SummerFarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo">SummerFarm</a>
+        <nav>
+            <a href="mines.html">Шахты</a>
+            <a href="catacombs.html">Катакомбы</a>
+            <a href="warp.html">Варп-магазин</a>
+            <a href="wiki.html">Вики & Гайды</a>
+            <a href="index.html#cta" class="btn-discord">Discord</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <a href="index.html" class="back-link">← Вернуться на главную</a>
+        
+        <h1 class="section-title">🛍️ ВАРП-МАГАЗИН</h1>
+        <p class="section-description">Официальный магазин на сервере SummerCraft. Здесь ты можешь продать всё, что нафармил на скрипте, и получить реальные коины!</p>
+
+        <!-- INFO SECTION -->
+        <div style="margin: 3rem auto; max-width: 900px; background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(100, 150, 255, 0.05) 100%); padding: 2.5rem; border-radius: 12px; border: 2px solid rgba(0, 255, 136, 0.3);">
+            <h2 style="font-family: 'Press Start 2P', cursive; font-size: 1.5rem; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">📍 Как найти варп</h2>
+            <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8; margin-bottom: 1rem;">
+                Напиши в чате: <span style="color: var(--accent-gold); font-weight: bold;">/warp shop</span>
+            </p>
+            <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8;">
+                Или используй <span style="color: var(--accent-gold); font-weight: bold;">/warp summerfarm</span> для прямого входа в наш магазин!
+            </p>
+        </div>
+
+        <!-- INVENTORY -->
+        <div style="margin: 3rem auto; max-width: 900px;">
+            <h2 style="font-family: 'Press Start 2P', cursive; font-size: 1.5rem; color: var(--accent-green); margin-bottom: 2rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4); text-align: center;">📦 Ассортимент</h2>
+            
+            <div class="inventory-grid">
+                <div class="inventory-slot">Булыжник</div>
+                <div class="inventory-slot">Камень</div>
+                <div class="inventory-slot">Уголь</div>
+                <div class="inventory-slot">Железная руда</div>
+                <div class="inventory-slot">Золотая руда</div>
+                <div class="inventory-slot">Алмазная руда</div>
+                <div class="inventory-slot">Изумруд</div>
+                <div class="inventory-slot">Недрит</div>
+            </div>
+
+            <p style="text-align: center; color: var(--text-secondary); margin-top: 2rem; font-size: 0.95rem;">
+                Варп получит расширение по мере развития сервера. Появятся новые ресурсы и более выгодные цены!
+            </p>
+        </div>
+
+        <!-- PROFIT CALCULATOR -->
+        <div style="margin: 4rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2.5rem; border-radius: 12px; border-left: 4px solid var(--accent-gold);">
+            <h2 style="font-family: 'Press Start 2P', cursive; font-size: 1.5rem; color: var(--accent-gold); margin-bottom: 2rem; text-shadow: 0 0 10px rgba(255, 170, 0, 0.4);">💰 Примерные прибыли</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                <div style="padding: 1.5rem; background: rgba(0, 255, 136, 0.1); border-left: 4px solid var(--accent-green); border-radius: 4px;">
+                    <p style="color: var(--accent-green); font-family: 'Press Start 2P', cursive; font-size: 0.9rem; margin-bottom: 0.5rem;">За час копания</p>
+                    <p style="color: var(--accent-gold); font-size: 1.2rem; font-weight: bold;">50K+ коинов</p>
+                    <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.5rem;">При базовом модуле</p>
+                </div>
+
+                <div style="padding: 1.5rem; background: rgba(255, 0, 255, 0.1); border-left: 4px solid var(--accent-purple); border-radius: 4px;">
+                    <p style="color: var(--accent-purple); font-family: 'Press Start 2P', cursive; font-size: 0.9rem; margin-bottom: 0.5rem;">За сутки АФК</p>
+                    <p style="color: var(--accent-gold); font-size: 1.2rem; font-weight: bold;">1M+ коинов</p>
+                    <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.5rem;">С премиум модулем</p>
+                </div>
+
+                <div style="padding: 1.5rem; background: rgba(88, 101, 242, 0.1); border-left: 4px solid #5865f2; border-radius: 4px;">
+                    <p style="color: #5865f2; font-family: 'Press Start 2P', cursive; font-size: 0.9rem; margin-bottom: 0.5rem;">За неделю</p>
+                    <p style="color: var(--accent-gold); font-size: 1.2rem; font-weight: bold;">7M+ коинов</p>
+                    <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.5rem;">Пассивный доход 24/7</p>
+                </div>
+            </div>
+
+            <p style="color: var(--text-secondary); margin-top: 1.5rem; font-size: 0.95rem; text-align: center;">
+                ⚠️ Цены и прибыли зависят от текущей экономики сервера и спроса на ресурсы!
+            </p>
+        </div>
+
+        <!-- FEATURES -->
+        <div class="features-section">
+            <h2 class="features-title">🎯 Преимущества варпа</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Быстрая продажа</h3>
+                    <p class="feature-text">Вся фарма продаётся в один клик. Не нужно искать покупателей на чате.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">💎</div>
+                    <h3 class="feature-title">Честные цены</h3>
+                    <p class="feature-text">Фиксированные цены на все ресурсы. Никаких наценок и обмана.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Стабильность</h3>
+                    <p class="feature-text">Варп работает 24/7 без перерывов. Ты можешь продавать в любой момент.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">История</h3>
+                    <p class="feature-text">Видишь полную историю своих продаж и текущий баланс коинов.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🛒</div>
+                    <h3 class="feature-title">Покупка предметов</h3>
+                    <p class="feature-text">Помимо продажи ресурсов можешь покупать нужные тебе предметы.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">👥</div>
+                    <h3 class="feature-title">Сообщество</h3>
+                    <p class="feature-text">Встречайся с другими игроками и обмениваться опытом в варпе.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <h2 class="cta-title">Начни зарабатывать сегодня!</h2>
+        <p class="cta-text">
+            Возьми скрипт для копания или стояния в катакомбах, нафармь ресурсы, и начни продавать их в варпе. Это просто, выгодно и безопасно!
+        </p>
+        <a href="https://discord.com/users/YOUR_DISCORD_ID" class="btn-cta" target="_blank">Написать в Discord</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 SummerFarm. Эксклюзивные скрипты для SummerCraft.</p>
+        <p>Только приватный доступ. Не публикуется.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
