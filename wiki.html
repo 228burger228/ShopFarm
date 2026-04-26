@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вики & Гайды - SummerFarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo">SummerFarm</a>
+        <nav>
+            <a href="mines.html">Шахты</a>
+            <a href="catacombs.html">Катакомбы</a>
+            <a href="warp.html">Варп-магазин</a>
+            <a href="wiki.html">Вики & Гайды</a>
+            <a href="index.html#cta" class="btn-discord">Discord</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <a href="index.html" class="back-link">← Вернуться на главную</a>
+        
+        <h1 class="section-title">📚 ВИКИ И ГАЙДЫ</h1>
+        <p class="section-description">Полная база знаний для использования скриптов SummerFarm. Здесь ты найдёшь ответы на все вопросы!</p>
+
+        <!-- GUIDES GRID -->
+        <div class="cards-grid" style="margin-top: 3rem;">
+            <!-- GUIDE 1 -->
+            <div class="card fade-in" onclick="toggleGuide('guide1')" style="cursor: pointer;">
+                <div class="card-icon">🚀</div>
+                <h3 class="card-title">Начало работы</h3>
+                <p class="card-description">
+                    Первые шаги с SummerFarm. Как скачать, установить лаунчер и активировать лицензию.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+
+            <!-- GUIDE 2 -->
+            <div class="card fade-in" onclick="toggleGuide('guide2')" style="cursor: pointer;">
+                <div class="card-icon">⚙️</div>
+                <h3 class="card-title">Настройка скриптов</h3>
+                <p class="card-description">
+                    Как настроить скрипт под свой стиль игры. Параметры, режимы, оптимизация под ПК.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+
+            <!-- GUIDE 3 -->
+            <div class="card fade-in" onclick="toggleGuide('guide3')" style="cursor: pointer;">
+                <div class="card-icon">🎮</div>
+                <h3 class="card-title">Использование в игре</h3>
+                <p class="card-description">
+                    Как запустить скрипт в игре и правильно его использовать для максимальной прибыли.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+
+            <!-- GUIDE 4 -->
+            <div class="card fade-in" onclick="toggleGuide('guide4')" style="cursor: pointer;">
+                <div class="card-icon">🐛</div>
+                <h3 class="card-title">Решение проблем</h3>
+                <p class="card-description">
+                    Что делать если скрипт не работает или возникли ошибки. Часто встречающиеся проблемы.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+
+            <!-- GUIDE 5 -->
+            <div class="card fade-in" onclick="toggleGuide('guide5')" style="cursor: pointer;">
+                <div class="card-icon">💰</div>
+                <h3 class="card-title">Стратегии заработка</h3>
+                <p class="card-description">
+                    Как максимизировать свой доход. Лучшие места для фарма, оптимальные режимы работы.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+
+            <!-- GUIDE 6 -->
+            <div class="card fade-in" onclick="toggleGuide('guide6')" style="cursor: pointer;">
+                <div class="card-icon">🔒</div>
+                <h3 class="card-title">Безопасность & Антидетект</h3>
+                <p class="card-description">
+                    Как оставаться незаметным для админов. Безопасность использования скриптов на сервере.
+                </p>
+                <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-green);">
+                    Кликни, чтобы развернуть →
+                </div>
+            </div>
+        </div>
+
+        <!-- GUIDES CONTENT -->
+        <div id="guide1" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">🚀 Начало работы</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Шаг 1: Скачивание</h4>
+                <p>Получи ссылку на скачивание архива с лаунчером через Discord DM. Архив содержит все нужные файлы.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Шаг 2: Установка</h4>
+                <p>Распакуй архив в удобную папку. Запусти файл лаунчера (SummerFarm.exe).</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Шаг 3: Активация</h4>
+                <p>Введи ключ лицензии, который получишь в Discord. Лаунчер проверит ключ и активирует скрипт.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Шаг 4: Запуск</h4>
+                <p>Откройся в игру, зайди на SummerCraft сервер. Нажми кнопку "START" в лаунчере и наслаждайся автофармом!</p>
+            </div>
+        </div>
+
+        <div id="guide2" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">⚙️ Настройка скриптов</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Режимы работы</h4>
+                <p><strong>АФК режим:</strong> Скрипт работает полностью автоматически без твоего вмешательства.</p>
+                <p><strong>Активный режим:</strong> Скрипт помогает тебе, но требует небольшого контроля.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Скорость работы</h4>
+                <p>Можешь регулировать скорость в настройках. Высокая скорость = больше урона админов, низкая = меньше риска.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Оптимизация под ПК</h4>
+                <p>Если лагает — снизь качество графики в скрипте. Скрипт адаптируется к твоему оборудованию.</p>
+            </div>
+        </div>
+
+        <div id="guide3" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">🎮 Использование в игре</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Перед запуском</h4>
+                <p>Убедись, что у тебя есть кирки/зелья. Выбери место для фарма. Встань в удобной позе.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Запуск скрипта</h4>
+                <p>Нажми "START" в лаунчере. Окно скрипта будет видно поверх Minecraft. Начинается автофарм.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Во время работы</h4>
+                <p>Не трогай мышь и клавиатуру! Скрипт всё делает сам. Если нужно остановить — нажми "STOP".</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">После фарма</h4>
+                <p>Отправляйся в варп-магазин и продай собранные ресурсы. Получишь коины на счёт!</p>
+            </div>
+        </div>
+
+        <div id="guide4" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">🐛 Решение проблем</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Скрипт не запускается</h4>
+                <p>Проверь, запущена ли игра и ты подключён к серверу. Перезагрузи лаунчер и попробуй снова.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Ошибка при активации</h4>
+                <p>Проверь, правильно ли ты ввёл ключ лицензии. Ключ чувствителен к регистру символов.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Скрипт зависает</h4>
+                <p>Это может быть из-за низкой производительности ПК. Закрой лишние программы и снизь графику.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Не знаешь что-то?</h4>
+                <p>Напиши в Discord и мы поможем! 24/7 техподдержка для всех пользователей SummerFarm.</p>
+            </div>
+        </div>
+
+        <div id="guide5" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">💰 Стратегии заработка</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Лучшие места для копания</h4>
+                <p>Y-уровень -50 оптимален для поиска алмазов. Копай в проверенных местах без мобов. Избегай лавы.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Бюджетный режим</h4>
+                <p>Копай булыжник и камень. Продавай в варпе. Небольшой доход, но низкий риск.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Агрессивный режим</h4>
+                <p>Ищи алмазы и редкие ресурсы. Высокий доход, но рискованнее. Требует крутого железа/алмазного пика.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Комбо стратегия</h4>
+                <p>День копай в шахтах, ночь стой в катакомбах. Максимизируй время АФК = максимум денег!</p>
+            </div>
+        </div>
+
+        <div id="guide6" class="guide-content" style="display: none; margin: 3rem auto; max-width: 900px; background: rgba(15, 20, 45, 0.6); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--accent-green);">
+            <h3 style="font-family: 'Press Start 2P', cursive; color: var(--accent-green); margin-bottom: 1.5rem; text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);">🔒 Безопасность & Антидетект</h3>
+            <div style="color: var(--text-secondary); line-height: 1.8;">
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Как остаться невидимым</h4>
+                <p>Скрипт имитирует естественные движения игрока. Паузы, плавные повороты, реалистичные удары.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Не вызывай подозрений</h4>
+                <p>Не копай в одном месте часами видимым образом. Периодически передвигайся. Будь как обычный игрок.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">Случайности</h4>
+                <p>Скрипт добавляет элемент случайности в движения, чтобы не быть предсказуемым для системы.</p>
+
+                <h4 style="color: var(--accent-gold); margin-top: 1rem; margin-bottom: 0.5rem;">В случае проблем</h4>
+                <p>Если админ заподозрил тебя — сразу напиши нам в Discord. Мы знаем, что делать в таких ситуациях.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 SummerFarm. Эксклюзивные скрипты для SummerCraft.</p>
+        <p>Только приватный доступ. Не публикуется.</p>
+    </footer>
+
+    <script>
+        function toggleGuide(id) {
+            const guide = document.getElementById(id);
+            const allGuides = document.querySelectorAll('.guide-content');
+            
+            allGuides.forEach(g => {
+                if (g.id !== id) {
+                    g.style.display = 'none';
+                }
+            });
+            
+            guide.style.display = guide.style.display === 'none' ? 'block' : 'none';
+            
+            if (guide.style.display === 'block') {
+                guide.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
